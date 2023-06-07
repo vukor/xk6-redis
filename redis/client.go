@@ -1084,7 +1084,7 @@ func (c *Client) connect() error {
 
 	// use k6's lib.DialerContexter function has redis'
 	// client Dialer
-	c.redisOptions.Dialer = vuState.Dialer.DialContext
+	//c.redisOptions.Dialer = vuState.Dialer.DialContext
 
 	// Replace the internal redis client instance with a new
 	// one using our custom options.
